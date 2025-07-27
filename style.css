@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+p{
+    font-size: 1.3rem;
+}
+.flex{
+    display: flex;
+}
+.flex_spb{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.text_align{
+    text-align: center;
+}
+header{
+    overflow: hidden;
+}
+.top_nav{
+    padding: 5px 40px;
+    background-color: #f5f5f5;
+}
+.top_nav_items{
+    gap: 10px;
+}
+.top_nav_items li{
+    list-style: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.navbar_img img{
+    width: 60px;
+}
+.navbar{
+    padding: 0px 40px;
+    position: relative;
+}
+.navbar_items{
+    gap: 10px;
+}
+.navbar_items li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.searchbar input{
+    padding: 5px 10px;
+    width: 100px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: none;
+}
+.searchbar{
+    gap: 10px;
+}
+.bottom_nav{
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+.video video{
+    width: 100%;
+    padding: 0% 3%;
+}
+.searchbar_block{
+    display: none;
+}
+.menu_block{
+    display: none;
+}
+.nav_ending{
+    padding: 3%;
+}
+.shop_button{
+    line-height: 3rem;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.featured{
+    color: white;
+    padding: 0% 3%;
+}
+.button_two{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    line-height: 3rem;
+    border-radius: 20px;
+}
+.child{
+    position: absolute;
+    bottom: 0;
+}
+.featured_one{
+    background-image: url(featured_one_img.jpg);
+    width: 30%;
+    padding: 40px;
+    min-height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.featured_two{
+    background-image: url(featured_two_img.png);
+    width: 30%;
+    padding: 40px;
+    min-height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.featured_three{
+    background-image: url(featured_three_img.jpeg);
+    width: 30%;
+    padding: 40px;
+    min-height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.classics_spotlight{
+    margin-top: 50px;
+}
+.classics_spotlight h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.shoe_container{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw; 
+    padding: 20px;
+}
+.image_wrapper img{
+    height: 38vh; 
+}
+.donot_miss h2{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.donot_miss{
+    padding: 3%;
+}
+.shopbysport_container{
+    justify-content: center;
+    gap: 1vw;
+    padding: 0 3%;
+}
+.shopbysport_one{
+    background-image: url(shopbysport_one.jpg);
+    background-size: cover;
+    width: 80%;
+    position: relative;
+    min-height: 300px;
+    padding: 20px;
+
+}
+.shopbysport_two{
+    background-image: url(shopbysport_two.jpg);
+    background-size: cover;
+    width: 80%;
+    position: relative;
+    min-height: 300px;
+    padding: 20px;
+}
+.shopbysport_three{
+    background-image: url(shopbysport_three.jpg);
+    background-size: cover;
+    width: 80%;
+    position: relative;
+    min-height: 300px;
+    padding: 20px;
+}
+.shopbysport_child{
+    position: absolute;
+    bottom: 0;
+}
+.shopbysport h2{
+    padding: 0 3%;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1.5rem;
+    padding: 0 3%;
+    gap: 3rem;
+}
+.footer_item{
+    display: grid;
+    text-align: center;
+}
+.footer h2{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.footer a{
+    color: #707072;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 620;
+}
+.sub_footer{
+    padding: 0 3%;
+    gap: 1rem;
+    padding: 2rem;
+}
+.sub_footer a{
+    color: #707072;
+    font-weight: 620;
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width:981px) {
+    .searchbar_block{
+        display: block;
+    }
+    .placeholder_block{
+        display: none;
+    }
+    .menu_block{
+        display: block;
+    }
+    .top_nav{
+        display: none;
+    }
+    .featured{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .featured_one{
+        width: 60%;
+        align-self: center;
+    }
+    .featured_two{
+        width: 60%;
+        align-self: center;
+    }
+    .featured_three{
+        width: 60%;
+        align-self: center;
+    }
+    .navbar_items{
+        flex-direction: column;
+        padding: 5%;
+        font-size: 2rem;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 250px;
+        transition: all 0.2s ease-in;
+    }
+    .active{
+        right: 0;
+    }
+    .shopbysport_container{
+        flex-direction: column;
+    }
+    .shopbysport_one{
+        align-self: center;
+        min-height: 250px;
+    }
+    .shopbysport_two{
+        align-self: center;
+        min-height: 250px;
+    }
+    .shopbysport_three{
+        align-self: center;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .featured_one{
+        width: 75%;
+        align-self: center;
+        min-height: 250px;
+    }
+    .featured_two{
+        width: 75%;
+        align-self: center;
+        min-height: 250px;
+    }
+    .featured_three{
+        width: 75%;
+        align-self: center;
+        min-height: 250px;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer h2{
+        font-size: 1rem;
+    }
+    .footer a{
+        font-size: 0.7rem;
+    }
+    .sub_footer{
+        flex-direction: column;
+    }
+}
+
+/* 767 467 */
