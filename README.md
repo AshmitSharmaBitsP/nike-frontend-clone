@@ -2,7 +2,7 @@
 
 A fully responsive frontend clone of the **Nike homepage**, built using **HTML**, **CSS**, and **JavaScript**. This project replicates Nike’s modern, visually-rich landing page with attention to layout, branding, and responsiveness.
 
-🔗 **Live Demo:** 
+🔗 **Live Demo:** ( https://ashmitsharmabitsp.github.io/nike-frontend-clone/ )
 
 ---
 
@@ -26,4 +26,44 @@ A fully responsive frontend clone of the **Nike homepage**, built using **HTML**
 ---
 
 ## 📁 Folder Structure
+nike-clone/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│ ├── images/
+│ └── logos/
+
+
+---
+
+## 📚 What I Learned
+
+- Recreating a commercial website using clean, modular HTML/CSS  
+- Building responsive grid and flexbox layouts  
+- Enhancing user experience with animations and interactivity  
+- Improving code readability and asset management  
+- Hosting and maintaining static sites using Netlify
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Add product filtering and sorting  
+- [ ] Integrate carousel for featured collections  
+- [ ] Implement mobile navigation drawer
+
+---
+
+## 📌 Note
+
+This project is intended for educational and portfolio purposes only. All branding, logos, and trademarks belong to Nike, Inc.
+
+---
+
+## 👤 Author
+
+**Ashmit Sharma**  
+[LinkedIn](www.linkedin.com/in/ashmit-sharma-371443366)
+
 
